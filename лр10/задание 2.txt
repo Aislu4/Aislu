@@ -1,0 +1,12 @@
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+for i in range(4) :
+  t.fd(50)
+  t.rt(90)
+t.penup()
+t.goto(-50, 50)
+t.pendown()
+for i in range(4):
+    t.fd(100)
+    t.rt(90)

@@ -1,0 +1,44 @@
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+
+(600, 400)
+t.color('gray')
+for i in range(4) :
+  t.fd(20)
+  t.lt(90)
+t.goto(-20, -20)
+t.pendown()
+for i in range(4) :
+  t.fd(50)
+  t.lt(90)
+t.goto(-40, -40)
+t.pendown()
+for i in range(4) :
+  t.fd(80)
+  t.lt(90)
+t.goto(-60, -60)
+t.pendown()
+for i in range(4) :
+  t.fd(110)
+  t.lt(90)
+t.goto(-80, -80)
+t.pendown()
+for i in range(4) :
+  t.fd(140)
+  t.lt(90)
+t.goto(-100, -100)
+t.pendown()
+for i in range(4) :
+  t.fd(170)
+  t.lt(90)
+t.goto(-120, -120)
+t.pendown()
+for i in range(4) :
+  t.fd(200)
+  t.lt(90)
+t.goto(-140, -140)
+t.pendown()
+for i in range(4) :
+  t.fd(230)
+  t.lt(90)
